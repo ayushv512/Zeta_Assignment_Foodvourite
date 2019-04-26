@@ -1,0 +1,132 @@
+
+
+.mainDivCls{
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    border: 1px solid #f6f6f6;
+}
+.titleCls{
+    text-align: center;
+    background: green;
+    padding: 10px;
+    color: #fff;
+}
+.favouriteImgCls{
+    width:250px;
+    height:250px;
+}
+.favouritesListCls{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 25px;
+}
+
+.favouritesDetailDivCls{
+    padding: 10px;
+}
+
+.imageCls{
+    width:40px;
+    height:40px;
+}
+.favouritesCls{
+    padding: 15px;
+}
+.cartCls{
+    float: right;
+    width: 25px !important;
+}
+
+#categoriesList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+
+.categoryDivCls{
+    text-align: center;
+    vertical-align: super;
+    padding-left: 6px;
+}
+
+.recipeImgCls{
+    width:100%;
+    height: 300px;
+}
+
+.recipeDivCls{
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.nameCls{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+.detailsCls{
+    padding: 5px;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.ratingCls{
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.priceCls{
+    padding-right: 15px;
+}
+
+.categoryCls{
+    padding-left: 5px;
+    font-style: italic;
+}
+
+.categoryBtnCls{
+    padding: 10px;
+    border: 1px solid #f6f6f6;
+    background: none;
+    cursor: pointer;
+}
+
+.reorderBtnCls{
+    float: right;
+    background: green;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+
+.addtobagBtnCls{
+    float: right;
+    background: green;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    width: 120px;
+    cursor: pointer;    
+}
+
+.favouriteNameCls{
+    font-weight: bold;
+}
+
+.nodishCls{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainDivCls {
+        width: 100%;
+        position: static;
+    }
+  }
